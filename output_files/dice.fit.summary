@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Dec 13 23:23:48 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : dice
+Top-level Entity Name : dice
+Family : MAX II
+Device : EPM1270T144C5
+Timing Models : Final
+Total logic elements : 381 / 1,270 ( 30 % )
+Total pins : 69 / 116 ( 59 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

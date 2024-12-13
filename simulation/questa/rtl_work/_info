@@ -1,0 +1,283 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/DigitalDesign/Quartus/v23.1.1/git_dice/simulation/questa
+T_opt
+!s110 1734103452
+VTJF=5;3[MAWehdLhC0OLQ0
+04 12 4 work tb_dice_game fast 0
+=1-bc0ff35d26a4-675c519a-1f3-5dac
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vdebounce
+Z2 !s110 1734103446
+!i10b 1
+!s100 `bB_nFWR_77jMWCUYnn4e3
+IG9eEdB28BhH=OTE6g;jF`1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734004227
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce.v
+L0 1
+Z4 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z5 !s108 1734103446.000000
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -vlog01compat -work work +incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdebounce_double
+R2
+!i10b 1
+!s100 okIoD6PjSLbiGWb^EY[@b1
+IK;d3>0VJQN2B;LSeS:7=J1
+R3
+R0
+w1733972732
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce_double.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce_double.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce_double.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/debounce_double.v|
+!i113 0
+R6
+R7
+R1
+vdice
+R2
+!i10b 1
+!s100 j@S0l=<NELH5JJ>hjFa>R2
+I>1`KkbI_C?MFm7k3h><[e3
+R3
+R0
+w1734060170
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/dice.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/dice.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/dice.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/dice.v|
+!i113 0
+R6
+R7
+R1
+vdot_matrix
+Z8 !s110 1734103447
+!i10b 1
+!s100 @GgGa>jm;NF>@2mzb5Y2Z3
+IK6ci@GE^=E_B;UVGl_;YI0
+R3
+R0
+w1733994093
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/dot_matrix.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/dot_matrix.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z9 !s108 1734103447.000000
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/dot_matrix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/dot_matrix.v|
+!i113 0
+R6
+R7
+R1
+vis_roll
+Z10 !s110 1734103448
+!i10b 1
+!s100 OWDS7P_[=WOz>Mnm7SWG?3
+IG48ed>A4^W@JNXblQR9:X1
+R3
+R0
+w1734103178
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/test.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/test.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1734103448.000000
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/test.v|
+!i113 0
+R6
+R7
+R1
+vprescaler
+R8
+!i10b 1
+!s100 JCokVJZkd>NV]gbg>lb2l1
+IPcglO9A__55:?_c6jUcWX3
+R3
+R0
+w1734008273
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/prescaler.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/prescaler.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/prescaler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/prescaler.v|
+!i113 0
+R6
+R7
+R1
+vrandom
+R8
+!i10b 1
+!s100 JDhEcnn_H?NX2z_kiHcdS3
+IS]B_Cm1G6E=dmUl0n>>a<1
+R3
+R0
+Z12 w1734058616
+Z13 8D:/DigitalDesign/Quartus/v23.1.1/git_dice/random.v
+Z14 FD:/DigitalDesign/Quartus/v23.1.1/git_dice/random.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+Z15 !s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/random.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/random.v|
+!i113 0
+R6
+R7
+R1
+vrandom2
+R8
+!i10b 1
+!s100 7hkFX0o]Kih5CIfon:C]D0
+IhPgEW?<VnUIjhFMcS<Pbj0
+R3
+R0
+R12
+R13
+R14
+L0 34
+R4
+r1
+!s85 0
+31
+R9
+R15
+R16
+!i113 0
+R6
+R7
+R1
+vscore
+R8
+!i10b 1
+!s100 Y`67A9J8SmQW05EOS^E7z0
+Id>LG7:]n2g3WU2@dH0aI:0
+R3
+R0
+w1733972857
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/score.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/score.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/score.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/score.v|
+!i113 0
+R6
+R7
+R1
+vsegment
+R10
+!i10b 1
+!s100 IcR7kK8D@U@J3V_dU^WUf2
+ICOG:[]Sn@CTHh50]bS6c21
+R3
+R0
+w1733972882
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/segment.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/segment.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/segment.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/segment.v|
+!i113 0
+R6
+R7
+R1
+vstandby
+R10
+!i10b 1
+!s100 T=<>_h8EJ3dd8MnKj;_092
+IYWLQbFOa0bR:L>0JCa5U`0
+R3
+R0
+w1733992380
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/standby.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/standby.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/standby.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice|D:/DigitalDesign/Quartus/v23.1.1/git_dice/standby.v|
+!i113 0
+R6
+R7
+R1
+vtb_dice_game
+R10
+!i10b 1
+!s100 1EO;kCS=MMc7Z`4`EjQT73
+I_AH;c0Y:9;El`jn1FC?Zz3
+R3
+R0
+w1734060638
+8D:/DigitalDesign/Quartus/v23.1.1/git_dice/db/tb_dice_game.v
+FD:/DigitalDesign/Quartus/v23.1.1/git_dice/db/tb_dice_game.v
+L0 4
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/DigitalDesign/Quartus/v23.1.1/git_dice/db/tb_dice_game.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice/db|D:/DigitalDesign/Quartus/v23.1.1/git_dice/db/tb_dice_game.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/DigitalDesign/Quartus/v23.1.1/git_dice/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

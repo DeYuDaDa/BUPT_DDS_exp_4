@@ -1,0 +1,69 @@
+// Testbench for dice game
+`timescale 1ns / 1ps
+
+module tb_dice_game();
+
+    reg clk;
+    reg rst;
+    reg stop;
+    reg [3:0] dice1;
+    reg [3:0] dice2;
+    wire [7:0] row;
+    wire [7:0] r_col;
+    wire [7:0] g_col;
+
+    // Instantiate the dice game module
+    dot_matrix uut (
+        .clk(clk),
+        .rst(rst),
+        .stop(stop),
+        .dice1(dice1),
+        .dice2(dice2),
+        .row(row),
+        .r_col(r_col),
+        .g_col(g_col)
+    );
+
+    // Clock generation
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // 10ns clock period
+    end
+
+    // Test sequence
+    initial begin
+        // Initialize inputs
+        rst = 0;
+        stop = 0;
+        dice1 = 4'b0000;
+        dice2 = 4'b0000;
+
+        // Reset the system
+        #10 rst = 1;
+        #10 rst = 0;
+        #10 rst = 1;
+
+        // Test dynamic display
+        dice1 = 4'b0010; // Set dice1 to 2
+        dice2 = 4'b0011; // Set dice2 to 3
+        #100;
+
+        // Test stop signal
+        stop = 1;
+        #50;
+        stop = 0;
+        #50;
+
+        // Test another dice value
+        dice1 = 4'b0100; // Set dice1 to 4
+        dice2 = 4'b0101; // Set dice2 to 5
+        #100;
+
+        // Test stop again
+        stop = 1;
+        #50;
+
+        $stop;
+    end
+
+endmodule

@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'is_roll:u_roll|roll2'
+Slack : -17.891
+TNS   : -82.649
+
+Type  : Setup 'is_roll:u_roll|roll1'
+Slack : -13.395
+TNS   : -65.427
+
+Type  : Setup 'score:socre_inst|times'
+Slack : -10.833
+TNS   : -85.776
+
+Type  : Setup 'clk'
+Slack : -10.487
+TNS   : -984.787
+
+Type  : Setup 'prescaler:u_prescaler|clk_out'
+Slack : -6.269
+TNS   : -74.528
+
+Type  : Hold 'clk'
+Slack : -2.068
+TNS   : -8.358
+
+Type  : Hold 'score:socre_inst|times'
+Slack : 0.878
+TNS   : 0.000
+
+Type  : Hold 'is_roll:u_roll|roll1'
+Slack : 1.305
+TNS   : 0.000
+
+Type  : Hold 'prescaler:u_prescaler|clk_out'
+Slack : 1.659
+TNS   : 0.000
+
+Type  : Hold 'is_roll:u_roll|roll2'
+Slack : 1.812
+TNS   : 0.000
+
+Type  : Recovery 'is_roll:u_roll|roll1'
+Slack : -8.434
+TNS   : -29.781
+
+Type  : Recovery 'is_roll:u_roll|roll2'
+Slack : -7.558
+TNS   : -29.232
+
+Type  : Recovery 'score:socre_inst|times'
+Slack : -5.373
+TNS   : -45.255
+
+Type  : Removal 'score:socre_inst|times'
+Slack : 1.813
+TNS   : 0.000
+
+Type  : Removal 'is_roll:u_roll|roll1'
+Slack : 5.017
+TNS   : 0.000
+
+Type  : Removal 'is_roll:u_roll|roll2'
+Slack : 5.784
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clk'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'prescaler:u_prescaler|clk_out'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'score:socre_inst|times'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'is_roll:u_roll|roll1'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'is_roll:u_roll|roll2'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

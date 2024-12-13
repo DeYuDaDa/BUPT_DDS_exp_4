@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at score.v(123): always construct contains both blocking and non-blocking assignments File: D:/DigitalDesign/Quartus/v23.1.1/git_dice/score.v Line: 123
+Warning (10268): Verilog HDL information at segment.v(16): always construct contains both blocking and non-blocking assignments File: D:/DigitalDesign/Quartus/v23.1.1/git_dice/segment.v Line: 16
